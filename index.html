@@ -7,10 +7,55 @@
     <title>Piano</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    footer {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+</style>
 
 <body>
     <main>
         <div id="card"></div>
+
+        <footer
+            class="w-full bg-gradient-to-r from-gray-900 via-black to-gray-900 text-white py-10 mt-16 relative overflow-hidden">
+
+            
+            <div
+                class="max-w-5xl mx-auto px-6 py-6 backdrop-blur-xl bg-white/5 rounded-2xl shadow-xl border border-white/10">
+
+                
+                <div class="flex flex-col items-center gap-2 text-center">
+                    <h2 class="text-xl font-semibold tracking-wide">Created with
+                        <span class="text-red-500 text-2xl drop-shadow-[0_0_6px_red] animate-pulse">❤️</span>
+                        by Vikas
+                    </h2>
+                    <p class="text-gray-300 text-sm">Building modern web experiences with passion</p>
+                </div>
+
+                
+                <div class="flex justify-center gap-6 mt-5">
+                    <a href="#" class="text-gray-300 hover:text-white transition text-xl"><i
+                            class="fab fa-github"></i></a>
+                    <a href="#" class="text-gray-300 hover:text-blue-400 transition text-xl"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="#" class="text-gray-300 hover:text-red-400 transition text-xl"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+
+                <div class="text-center text-gray-400 text-xs mt-6">
+                    © 2025 Vikas — All Rights Reserved.
+                </div>
+            </div>
+
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"></script>
+
+
     </main>
 
     <script src="script.js"></script>
